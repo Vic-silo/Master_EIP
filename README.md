@@ -3,7 +3,7 @@
  
  <div>
     <h3>Contenido</h3>
-    <p>En este repositorio se encuentra las actividades realizadas para el 
+    <p>En este repositorio se encuentra los pequeños codigos creados para las actividades realizadas para el 
     master mencionado.</p>
  
  </div>
