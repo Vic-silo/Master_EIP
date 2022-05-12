@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: RFunc
+Version: 1.0
+Summary: EIP Activity. Prime numers showed.
+Home-page: UNKNOWN
+Author: Victor Simo
+Author-email: vicsilo.simo@gmail.com
+License: GNU GPLv3
+Description: R FUNCTIONS
+        ==============
+        
+        Funcion en R de acuerdo a la Actividad 4.
+        This program is free software: You can redistribute it and/or modify it under the terms of license by the Free Software Foundation, either version 3 of the License(at your option) any other version.
+        
+        
+Keywords: pyoperaciones mathematical operations prime
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: EIP
+Classifier: Topic :: Math
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent

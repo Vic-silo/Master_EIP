@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.txt
+setup.py
+RFunc/__init__.py
+RFunc.egg-info/PKG-INFO
+RFunc.egg-info/SOURCES.txt
+RFunc.egg-info/dependency_links.txt
+RFunc.egg-info/top_level.txt
