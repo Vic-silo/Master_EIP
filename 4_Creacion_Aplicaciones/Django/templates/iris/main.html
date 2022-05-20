@@ -1,0 +1,50 @@
+{% extends "base_generic.html" %}
+{% block content %}
+<html>
+    <body>
+        <h1>Iris Dataset</h1>
+        <br>
+        <h3>· Resume:</h3>
+        <table class="table table-hover">
+            <tr>
+                <td></td>
+                <td><label>Sepal Length</label></td>
+                <td><label>Sepal Width</label></td>
+                <td><label>Petal Length</label></td>
+                <td><label>Petal Width</label></td>
+            </tr>
+            {% for key, value in describe.items %}
+                <tr>
+                    <td><strong>{{ key }}</strong></td>
+                    <td>{{ value.sepal_length }}</td>
+                    <td>{{ value.sepal_width }}</td>
+                    <td>{{ value.petal_length }}</td>
+                    <td>{{ value.petal_width }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+        <br>
+        <h3>· All Data:</h3>
+        <table class="table table-hover">
+            <tr>
+                <td></td>
+                <td><label>Sepal Length</label></td>
+                <td><label>Sepal Width</label></td>
+                <td><label>Petal Length</label></td>
+                <td><label>Petal Width</label></td>
+                <td><label>Species</label></td>
+            </tr>
+            {% for key, value in data.items %}
+                <tr>
+                    <td><strong>{{ key }}</strong></td>
+                    <td>{{ value.sepal_length }}</td>
+                    <td>{{ value.sepal_width }}</td>
+                    <td>{{ value.petal_length }}</td>
+                    <td>{{ value.petal_width }}</td>
+                    <td>{{ value.species }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>
+{% endblock %}

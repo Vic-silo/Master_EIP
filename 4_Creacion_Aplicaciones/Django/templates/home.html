@@ -1,0 +1,27 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+{% load static %}
+<h1>Django Home</h1>
+
+  <p>Welcome to <em>Django appplication</em>, a very basic Django website developed.</p>
+
+<h2>Dynamic content</h2>
+
+  <p>Example data:</p>
+  <div style="width:100%">
+      <div style="float:left;width:50%">
+        <ul>
+            <li><strong>Sepal length in cm:</strong> {{ sepal_length }}</li>
+            <li><strong>sepal width in cm:</strong> {{ sepal_width }}</li>
+            <li><strong>Petal length in cm:</strong> {{ petal_length }}</li>
+            <li><strong>Petal width in cm:</strong> {{ petal_width }}</li>
+            <li><strong>Class:</strong> {{ class }}</li>
+        </ul>
+      </div>
+      <div style="float:right;width:50%">
+          <img src="{% static 'images/iris.png' %}" alt="IrisImage" width="500" height="300">
+      </div>
+  </div>
+
+{% endblock %}

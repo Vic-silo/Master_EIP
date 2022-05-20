@@ -1,0 +1,12 @@
+{% extends "default/module.html.jinja2" %}
+{% block nav_title %}
+    <table>
+        <tr>
+            <th>MASTER PYTHON AVANZADO V</th>
+        </tr>
+    </table>
+{% endblock %}
+
+{% block favicon %}
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,{% filter urlencode %}{% include "logo.svg" %}{% endfilter %}"/>
+{% endblock %}

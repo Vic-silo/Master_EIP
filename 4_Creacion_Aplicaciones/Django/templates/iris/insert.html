@@ -1,0 +1,39 @@
+{% extends "base_generic.html" %}
+{% block content %}
+<html>
+    <body>
+        <form method='post'>
+            {% csrf_token %}
+            <h1>Iris Dataset</h1>
+            <br>
+            <h3>· Insert Data:</h3>
+            {% if result != '' %}
+                <label style="color:green;">{{ result }}</label>
+            {% endif %}
+            <table class="table table-hover">
+                <tr>
+                    <th><label>Sepal Length:</label></th>
+                    <td><input name="sepal_length" value="" type="number" step='0.1'/></td>
+                </tr>
+                <tr>
+                    <th><label>Sepal Width:</label></th>
+                    <td><input name="sepal_width" value="" type="number" step='0.1'/></td>
+                </tr>
+                <tr>
+                    <th><label>Petal Length:</label></th>
+                    <td><input name="petal_length" value="" type="number" step='0.1'/></td>
+                </tr>
+                <tr>
+                    <th><label>Petal Width:</label></th>
+                    <td><input name="petal_width" value="" type="number" step='0.1'/></td>
+                </tr>
+                <tr>
+                    <th><label>Species:</label></th>
+                    <td><input name="species" value="" type="text"/></td>
+                </tr>
+            </table>
+            <input type="submit" name="Submit">
+        </form>
+    </body>
+</html>
+{% endblock %}
