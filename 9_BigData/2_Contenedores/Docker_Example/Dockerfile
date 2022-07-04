@@ -11,7 +11,7 @@ EXPOSE 80
 COPY ./App /app
 
 # Comandos a emplear:
-# - Acceder a main.py de app en Docker
+# - Acceder a database_creator.py de app en Docker
 # - Activar el host interno y externo: 0.0.0.0
 # - Puerto de comunicación: 80
 CMD ["uvicorn","app.main:app","--host","0.0.0.0","--port","80"]
