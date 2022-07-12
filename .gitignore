@@ -7,3 +7,6 @@
 9_BigData/3_PyCaret_AutoML/titanic/result.csv
 *.log
 *.csv
+*.docx
+*.hdf5
+*.parquet
