@@ -11,3 +11,5 @@
 *.hdf5
 *.parquet
 *.html
+*.data
+*.txt
