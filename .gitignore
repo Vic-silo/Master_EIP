@@ -16,3 +16,6 @@
 *.names
 *.zip
 *.dat
+*.arff
+*.tes
+*.tra
